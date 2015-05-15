@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".CalcActivity">
+
+    <item android:id="@+id/action_clear"
+        android:title="Clear"
+        android:onClick="clearScreen"/>
+    <item android:id="@+id/action_split"
+        android:title="Split Bill"
+        android:onClick="splitBill"/>
+    <item android:id="@+id/action_round"
+        android:title="Round Bill"
+        android:onClick="roundBill"/>
+</menu>
